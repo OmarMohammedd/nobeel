@@ -1,0 +1,31 @@
+
+.products h1 {
+  text-align: center;
+  color: #317AE0;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 2.5rem 0 1.7rem !important;
+}
+
+.products .image {
+  width: fit-content;
+  height: 115px;
+}
+.products img {
+  max-width: 100%;
+}
+
+
+
+
+.products .home-products .row > * {
+  @media (max-width: 768px) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+
+.products .footer .icons_social{
+  margin-top: 3rem;
+}
